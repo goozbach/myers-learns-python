@@ -1,0 +1,59 @@
+>>> print("hello world!")
+hello world!
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> print("hello world!")
+hello world!
+>>> print("Myers is awesome!")
+Myers is awesome!
+>>> print("I love mommy!")
+I love mommy!
+>>> print("I love mommy!)
+  File "<stdin>", line 1
+    print("I love mommy!)
+                        ^
+SyntaxError: EOL while scanning string literal
+>>> print("I love mommy!')
+  File "<stdin>", line 1
+    print("I love mommy!')
+                         ^
+SyntaxError: EOL while scanning string literal
+>>> print("I love mommy!")
+I love mommy!
+>>>
+>>> print("I love mommy!")
+KeyboardInterrupt
+>>>
+>>> print("I love myers!")
+I love myers!
+>>> 2 + 2
+4
+>>> 2 - 2
+0
+>>> 2 * 2
+4
+>>> 2 * 3
+6
+>>> 6 / 2
+3
+>>> name = "myers"
+>>> name
+'myers'
+>>> print("hi my name is " + name )
+hi my name is myers
+>>> name = "name"
+>>> print("hi my name is " + name )
+hi my name is name
+>>> name = "superhero garglesplat"
+>>> print("hi my name is " + name )
+hi my name is superhero garglesplat
+>>> save()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'save' is not defined
+>>>
